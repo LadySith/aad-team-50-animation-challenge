@@ -8,7 +8,7 @@ Add an animation scenario that shows something you love about Africa
 - Use deploy branch for collaboration
 - Assign a scenario to yourself as an issue, make sure it is not an animation that has already been created
 - Fork repo and work on a branch with an animation
-- If necessary, add button to main activity for new
+- If necessary, add button to main activity for new scenario
 
 ## Animations added so far
 - Constraint animation activity for Victoria Falls in Scenario 1
