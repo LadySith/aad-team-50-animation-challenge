@@ -11,7 +11,7 @@ Add an animation scenario that shows something you love about Africa
 - If necessary, add button to main activity for new
 
 ## Animations added so far
-- Contraint animation
+- Constraint animation activity for Victoria Falls in Scenario 1
 
 ## Contributors (add your name here and the scenario you have assigned yourself)
 - Sithe Ncube - Scenario #1 Constraint animation of Victoria Falls
