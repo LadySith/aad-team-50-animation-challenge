@@ -10,6 +10,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
+    
+    boolean capetownShowing = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -60,16 +62,20 @@ class MainActivity : AppCompatActivity() {
     
     public void fade (view: View) {
         
-        boolean capetownShowing = true
-        
         ImageView capeTownImage = findViewById(R.id.capetown)
         ImageView okavangoImage = findViewById(R.id.okavango)
         
         if(capetownShowing) {
+            
+             boolean capetownShowing = false
+            
             capeTownImage.animate().alpha(0).setDuration(1000)
             okavangoImage.animate().alpha(1).setDuration(1000)
         }
         else {
+            
+            boolean capetownShowing = true
+            
             capeTownImage.animate().alpha(1).setDuration(1000)
             okavangoImage.animate().alpha(0).setDuration(1000)
         }
