@@ -15,3 +15,4 @@ Add an animation scenario that shows something you love about Africa
 
 ## Contributors (add your name here and the scenario you have assigned yourself)
 - Sithe Ncube - Scenario #1 Constraint animation of Victoria Falls
+- Moeketsi Lijo - Scenario #2 Transitions Layout Animations of the Blyde River Canyon
