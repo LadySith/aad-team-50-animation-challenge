@@ -57,5 +57,22 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, AnimConstraintActivity::class.java)
         startActivity(intent)
     }
+    
+    public void fade (view: View) {
+        
+        boolean capetownShowing = true
+        
+        ImageView capeTownImage = findViewById(R.id.capetown)
+        ImageView okavangoImage = findViewById(R.id.okavango)
+        
+        if(capetownShowing) {
+            capeTownImage.animate().alpha(0).setDuration(1000)
+            okavangoImage.animate().alpha(1).setDuration(1000)
+        }
+        else {
+            capeTownImage.animate().alpha(1).setDuration(1000)
+            okavangoImage.animate().alpha(0).setDuration(1000)
+        }
+    }
 }
 
