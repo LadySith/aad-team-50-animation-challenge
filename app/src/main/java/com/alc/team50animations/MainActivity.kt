@@ -59,26 +59,11 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, AnimConstraintActivity::class.java)
         startActivity(intent)
     }
-    
-    public void fade (view: View) {
-        
-        ImageView capeTownImage = findViewById(R.id.capetown)
-        ImageView okavangoImage = findViewById(R.id.okavango)
-        
-        if(capetownShowing) {
-            
-             boolean capetownShowing = false
-            
-            capeTownImage.animate().alpha(0).setDuration(1000)
-            okavangoImage.animate().alpha(1).setDuration(1000)
-        }
-        else {
-            
-            boolean capetownShowing = true
-            
-            capeTownImage.animate().alpha(1).setDuration(1000)
-            okavangoImage.animate().alpha(0).setDuration(1000)
-        }
+
+
+    fun startScenario4(view: View){
+        val intent = Intent(this,TableMountainActivity::class.java)
+        startActivity(intent)
     }
 }
 
