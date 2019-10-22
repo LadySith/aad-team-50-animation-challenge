@@ -17,3 +17,4 @@ Add an animation scenario that shows something you love about Africa
 - Sithe Ncube - Scenario #1 Constraint animation of Victoria Falls
 - Moeketsi Lijo - Scenario #2 Transitions Layout Animations of the Blyde River Canyon
 - Emanuel Goncalves - Scenario #3 Transition fade-in and fade-out animation for CapeTown and Okavango River
+- Leslie Zimba - Scenario #4 Frame Animation of the Area around the Table Mountain in Cape Town
