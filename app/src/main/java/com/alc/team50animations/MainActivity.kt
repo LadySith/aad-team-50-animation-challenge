@@ -57,5 +57,10 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, AnimConstraintActivity::class.java)
         startActivity(intent)
     }
+
+    fun startScenario4(view: View){
+        val intent = Intent(this,TableMountainActivity::class.java)
+        startActivity(intent)
+    }
 }
 

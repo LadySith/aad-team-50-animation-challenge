@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/table_mountain1" android:duration="2000"/>
+    <item android:drawable="@drawable/table_mountain2" android:duration="2000"/>
+    <item android:drawable="@drawable/table_mountain3" android:duration="2000"/>
+    <item android:drawable="@drawable/table_mountain4" android:duration="2000"/>
+    <item android:drawable="@drawable/table_mountain5" android:duration="2000"/>
+    <item android:drawable="@drawable/table_mountain6" android:duration="2000"/>
+    <item android:drawable="@drawable/table_mountain7" android:duration="2000"/>
+    <item android:drawable="@drawable/table_mountain8" android:duration="2000"/>
+    <item android:drawable="@drawable/table_mountain9" android:duration="2000"/>
+    <item android:drawable="@drawable/table_mountain10" android:duration="2000"/>
+    <item android:drawable="@drawable/table_mountain11" android:duration="2000"/>
+    <item android:drawable="@drawable/table_mountain12" android:duration="2000"/>
+    <item android:drawable="@drawable/table_mountain13" android:duration="2000"/>
+
+</animation-list>

@@ -109,6 +109,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:text="Scenario #4"
+        android:onClick="startScenario4"
         app:layout_constraintBottom_toTopOf="@+id/bt_sc5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
