@@ -10,6 +10,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
+    
+    boolean capetownShowing = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -57,6 +59,7 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, AnimConstraintActivity::class.java)
         startActivity(intent)
     }
+
 
     fun startScenario4(view: View){
         val intent = Intent(this,TableMountainActivity::class.java)
