@@ -38,9 +38,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun openBlydeActivity() {
-        val intent = Intent(this, BlydeTransitionActivity::class.java)
-        startActivity(intent)
-    }
+
 
 }

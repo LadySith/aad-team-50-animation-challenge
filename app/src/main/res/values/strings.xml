@@ -6,4 +6,17 @@
     <string name="fade">Fade</string>
     <string name="table_mountain_in_cape_town">Images of the Table Mountain in Cape Town</string>
     <string name="start_stop">START/STOP</string>
+    <string name="blyde_slogan">Beauty Amplified, Awaken To A Different World.</string>
+    <string name="blyde_title">Blyde River Canyon</string>
+
+    <string name="blyde_description">
+        The Blyde River Canyon Reserve aka Motlatse Canyon extends along the Blyde River Canyon\'s winding path,
+        which at every turn offers more and more impressive views over sheer edges dropping 800m
+        into the riverbed. The fresh mountain scenery; panoramic views over the Klein Drakensberg
+        escarpment are quite spectacular and give the area its name of \'Panorama Route\'.
+        Viewpoints are named for the spectacle they offer, God\'s Window hint at the magnitude
+        of the scenery. It is considered
+        one of the largest canyons on Earth and may be the largest ‘green canyon’ -
+        it has a particularly lush subtropical covering.
+    </string>
 </resources>
