@@ -49,7 +49,6 @@ class BlydeTransitionActivity : AppCompatActivity() {
     }
 
     fun onClick(view: View) {
-
         currentScene = if (currentScene === scene1) {
             TransitionManager.go(scene2, transitionSet)
             scene2

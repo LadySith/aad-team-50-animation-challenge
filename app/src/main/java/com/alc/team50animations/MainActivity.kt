@@ -26,39 +26,17 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun scaleAnimation(view: View) {
-
-        val scaleAnimator = AnimatorInflater.loadAnimator(this, R.animator.scale)
-        scaleAnimator?.apply {
-            setTarget(targetImage)
-            start()
-        }
-    }
-
-    fun translateAnimation(view: View) {
-
-        val translateAnimator = AnimatorInflater.loadAnimator(this, R.animator.translate)
-        translateAnimator.apply {
-            setTarget(targetImage)
-            start()
-        }
-    }
-
-    fun fadeAnimation(view: View) {
-
-        val fadeAnimator = AnimatorInflater.loadAnimator(this, R.animator.alpha)
-        fadeAnimator.apply{
-            setTarget(targetImage)
-            start()
-        }
-    }
-
     fun startScenario1(view: View) {
         val intent = Intent(this, AnimConstraintActivity::class.java)
         startActivity(intent)
     }
 
     fun startScenario2(view: View) {
+        val intent = Intent(this, BlydeTransitionActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun startScenario3(view: View) {
         val intent = Intent(this, BlydeTransitionActivity::class.java)
         startActivity(intent)
     }

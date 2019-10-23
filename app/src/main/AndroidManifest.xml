@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TableMountainActivity"></activity>
+        <activity android:name=".CapeOkavangoActivity" />
+        <activity android:name=".TableMountainActivity" />
+        <activity android:name=".BlydeTransitionActivity" />
         <activity android:name=".AnimConstraintActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -6,54 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="16dp"
-        android:onClick="rotateAnimation"
-        android:text="@string/rotate"
-        app:layout_constraintBottom_toBottomOf="@id/guideline"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:onClick="scaleAnimation"
-        android:text="@string/scale"
-        app:layout_constraintBottom_toBottomOf="@id/guideline"
-        app:layout_constraintStart_toEndOf="@+id/button3" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="16dp"
-        android:onClick="translateAnimation"
-        android:text="@string/translate"
-        app:layout_constraintBottom_toBottomOf="@id/guideline"
-        app:layout_constraintStart_toEndOf="@+id/button4" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
-        android:onClick="fadeAnimation"
-        android:text="@string/fade"
-        app:layout_constraintBottom_toBottomOf="@id/guideline"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button5" />
-
     <ImageView
         android:id="@+id/targetImage"
-        android:layout_width="192dp"
-        android:layout_height="141dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="rotateAnimation"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -63,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.43"
-        app:srcCompat="@drawable/steering_wheel" />
+        app:srcCompat="@drawable/team50africa" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -76,8 +33,8 @@
         android:id="@+id/bt_sc1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Scenario #1"
         android:onClick="startScenario1"
+        android:text="Victoria Falls"
         app:layout_constraintBottom_toTopOf="@+id/bt_sc2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,8 +44,8 @@
         android:id="@+id/bt_sc2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Scenario #2"
         android:onClick="startScenario2"
+        android:text="Blyde River Canyon"
         app:layout_constraintBottom_toTopOf="@+id/bt_sc3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
