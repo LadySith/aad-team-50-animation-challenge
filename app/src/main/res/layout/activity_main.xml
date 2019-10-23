@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/greykente">
 
     <ImageView
         android:id="@+id/targetImage"
@@ -33,8 +34,8 @@
         android:id="@+id/bt_sc1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="startScenario1"
-        android:text="Victoria Falls"
+        android:onClick="startScenario3"
+        android:text="Map of Africa"
         app:layout_constraintBottom_toTopOf="@+id/bt_sc2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +56,8 @@
         android:id="@+id/bt_sc3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Scenario #3"
+        android:onClick="startScenario1"
+        android:text="Victoria Falls"
         app:layout_constraintBottom_toTopOf="@+id/bt_sc4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,22 +68,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Scenario #4"
+        android:text="Table Mountain"
         android:onClick="startScenario4"
-        app:layout_constraintBottom_toTopOf="@+id/bt_sc5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_sc3" />
-
-    <Button
-        android:id="@+id/bt_sc5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Scenario #5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_sc4" />
+        app:layout_constraintTop_toBottomOf="@+id/bt_sc3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

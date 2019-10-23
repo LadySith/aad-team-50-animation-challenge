@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun startScenario3(view: View) {
-        val intent = Intent(this, BlydeTransitionActivity::class.java)
+        val intent = Intent(this, AfricaMapActivity::class.java)
         startActivity(intent)
     }
 
